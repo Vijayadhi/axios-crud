@@ -1,0 +1,110 @@
+body {
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2757874.gif&f=1&nofb=1&ipt=4955f9869b79aa78aa511ef7da6a0c7ecd9e3c861849c54a1d83062aa1786334&ipo=images');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.line {
+  padding: auto;
+  border-bottom: 2px solid white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  /* border-width: medium; */
+}
+
+.forms-input input[type="text"] {
+  border: 2px solid #f13638;
+  border-radius: 4px;
+  background-color: #202231;
+  color: white;
+  cursor: text;
+}
+
+.forms-input input::placeholder {
+  color: white;
+}
+
+.forms-input input[type="text"] :placeholder-shown {
+  color: white;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Full height */
+  text-align: center;
+}
+
+.center-button {
+  margin-bottom: 20px;
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.no_data {
+  position: relative;
+  width: 100%;
+  /* Make container full width */
+  max-width: 600px;
+  /* Optional: Set max width */
+  margin: 0 auto;
+  /* Center container */
+}
+
+.no_data img {
+  width: 100%;
+  height: auto;
+}
+
+.no_data .btn {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #28a745;
+  /* Button color */
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  /* Remove underline */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no_data .btn:hover {
+  background-color: #218838;
+}
+
+.no_data .btn:hover {
+  background-color: black;
+}
+
+h1{
+  font-family:'Courier New', Courier, monospace
+
+}
+
+@media (max-width: 576px) {
+  .no_data .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
